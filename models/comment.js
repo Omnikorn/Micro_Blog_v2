@@ -27,7 +27,7 @@ Comment.init({
         allowNull:false,
         references:{
             model:"user",
-            key:"user_name"
+            key:"id"
         }
 
     }

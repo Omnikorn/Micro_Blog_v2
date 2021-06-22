@@ -54,6 +54,7 @@
     "glob-parent": "^5.1.2",
     "global-dirs": "^2.1.0",
     "graceful-fs": "^4.2.6",
+    "handlebars-helper-css": "^0.1.0",
     "has": "^1.0.3",
     "has-bigints": "^1.0.1",
     "has-flag": "^4.0.0",
