@@ -1,6 +1,6 @@
 const loginFormHandler = async (event) => {
   event.preventDefault();
-
+console.log("login")
   // Collect values from the login form
   const email = document.querySelector('#email-login').value.trim();
   const password = document.querySelector('#password-login').value.trim();
@@ -24,7 +24,7 @@ const loginFormHandler = async (event) => {
 
 const signupFormHandler = async (event) => {
   event.preventDefault();
-
+  console.log("Sign up form")
   const name = document.querySelector('#name-signup').value.trim();
   const email = document.querySelector('#email-signup').value.trim();
   const password = document.querySelector('#password-signup').value.trim();
@@ -35,15 +35,9 @@ const signupFormHandler = async (event) => {
       body: JSON.stringify({ name, email, password }),
       headers: { 'Content-Type': 'application/json' },
     });
-
+console.log("Response from BE:", response)
     if (response.ok) {
-      // document.location.replace('/dashboard');
-      
-      const page = await fetch("/dashboard",
-      {
-        method:"GET",
-        headers:{"Content-Type" : "application/json"}
-      })
+     document.location.replace("/")
     } else {
       alert(response.statusText);
     }
