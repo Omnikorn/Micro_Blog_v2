@@ -25,7 +25,9 @@ A user is presented with a log in / sig up screen where they can create or log i
 On the users own dashboard the user can create a new post or edit and delete their current posts. 
 The app is hosted on a Heroku serve with the posts and comments MYSQL database being hosted on a JAWdb server. 
 
-  
+  ![image](https://user-images.githubusercontent.com/75341811/123336161-61796880-d53d-11eb-8016-b1cde7a7f610.png)
+![image](https://user-images.githubusercontent.com/75341811/123336230-7d7d0a00-d53d-11eb-8808-eb32c05181c3.png)
+![image](https://user-images.githubusercontent.com/75341811/123336302-938aca80-d53d-11eb-87b0-48c0254a5cfe.png)
 
 
   
